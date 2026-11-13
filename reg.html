@@ -1,0 +1,34 @@
+<html><head>
+    <title>User REgistration Page</title>
+</head>
+<body>
+    <h1>Welcome to an event</h1>
+    <form onsubmit="register(); return false;">
+        Name:
+        <input type="text" required>
+        <br><br>
+        Email:
+        <input type="email" required>
+        <br><br>
+        Phn no:
+        <input type="tel" required>
+        <br><br>
+        Gender:
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender">Female
+        <br><br>
+        Event:
+        <select>
+            <option >Technical</option>
+            <option>Sports</option>
+            <option >Cultural</option>
+        </select>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+    <script>
+        function register(){
+            alert("Successfully Registered");
+        }
+    </script>
+</body></html>
